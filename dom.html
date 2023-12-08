@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="first">
+        <h1 id="head">simple form</h1>
+        <form id="main">
+            <label for="name" id="nam">Name</label> 
+            <input type="text" value="your name"><br><br>
+
+            
+
+            <label for="class">class</label>
+            <input type="number"><br><br>
+
+            <label for="gender">gender</label>
+            <input type="radio">male
+            <input type="radio">female
+            <input type="radio">othher<br><br>
+
+            <label for="Dob">Dob</label>
+            <input type="datetime"><br><br>
+
+            <input type="submit" id="end">
+
+
+            
+            
+
+
+
+
+        </form>
+    </div>
+    <script>
+        var form=document.getElementById('first')
+        console.log(form)
+        form.style.backgroundColor='pink'
+        var body=document.getElementById('main')
+        console.log(body)
+        body.style.paddingLeft='480px'
+       
+
+        // body.style.display='flex'
+        // body.style.flexDirection='column'
+        var heading=document.getElementById('head')
+        console.log(heading)
+        heading.style.backgroundColor='grey'
+        heading.style.color='white'
+        heading.style.paddingLeft='510px'
+        var ending=document.getElementById('end')
+        console.log(ending)
+        ending.style.width=('250px')
+        ending.style.backgroundColor=('grey')
+        ending.style.color=('white')
+        document.body.style.backgroundColor=('pink')
+        body.style.backgroundImage='url(https://www.wallpapertip.com/wmimgs/66-666819_website-design-background-creative-background-image-for-website.jpg)'
+        
+ 
+    </script>
+</body>
+</html>
