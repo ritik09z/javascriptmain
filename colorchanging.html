@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="like()" id="one">like</button> <span id="like">0</span>
+    <button onclick="dislike()" id="two">dislike</button><span id="dislike">0</span>
+</body>
+<script>
+    var increase=0
+    var decrease=0
+    
+   function like()
+    {
+    increase++
+    var a=document.getElementById('like')
+    a.innerText=increase
+    
+    var c=document.getElementById('one')
+    if(increase++){
+        c.style.backgroundColor='blue'
+    }
+}
+
+function dislike()
+{
+    decrease++
+    var b=document.getElementById('dislike')
+    b.innerText=decrease
+
+    var d=document.getElementById('two')
+    if(decrease++){
+     d.style.backgroundColor='red'
+    }
+}
+
+</script>
+</html>
