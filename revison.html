@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .a{
+            height: 0;
+            width: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 50px solid #000;
+
+        } */
+        /* .b{
+            height: 400px;
+            width: 400px;
+            color: black;
+            border: 1px solid black;
+            margin-left: 300px;
+            border-radius: 100%;
+
+
+        } */
+        button{
+           height: 200px;
+           width: 200px;
+           margin-left: 500px;
+           margin-top: 200px;
+           border-radius: 100%;
+           /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+        }
+        /* button:hover{
+            background-color: blue;
+           box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+        } */
+    </style>
+</head>
+<body>
+   <!-- <div class="a">
+   </div> -->
+<button onclick="three()">
+ <span id="two">0</span></button>
+</body>
+<script>
+    var b=0
+    function three(){
+     b++
+     var a=document.getElementById('two')
+     a.innerText=b
+
+
+    }
+</script>
+</html>
