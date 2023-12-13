@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <button onclick="dark()" id="y">dark</button> <button onclick="light()" id="x">light</button>
+</div>
+<div id="main">
+
+</div>
+</body>
+<script>
+    var container=document.getElementById('main')
+
+    var a =document.createElement('label')
+
+    console.log(a)
+    a.innerText=("name")
+    container.appendChild(a)
+
+    var b=document.createElement('input')
+    
+    b.innerText=("your name")
+    container.appendChild(b)
+
+    
+   
+   function dark(){
+    var z=document.getElementById('y')
+    document.body.style.backgroundColor='black'
+   }
+
+   function light(){
+    var z1=document.getElementById('x')
+    document.body.style.backgroundColor='white'
+   }
+
+
+    
+   
+</script>
+</html>
